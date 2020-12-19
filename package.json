@@ -14,8 +14,7 @@
     "Jeffrey Smith II"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc --build tsconfig.json",
-    "build-windows": "rimraf dist && tsc --build tsconfig.json",
+    "build": "rimraf dist && tsc --build tsconfig.json",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "prepare": "yarn build",
     "test": "jest"
